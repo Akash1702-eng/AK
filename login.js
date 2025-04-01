@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
       if (username === "dnyanu" && password === "password123") {
         alert("Login successful! Redirecting to chatbot...");
-        window.location.href = "login.html";  // Redirect to the chatbot page (make sure you have this file).
+        window.location.href = "index.html";  // Redirect to the chatbot page (make sure you have this file).
       } else {
         errorMessage.textContent = "Invalid username or password. Please try again.";
       }
